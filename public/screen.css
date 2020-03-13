@@ -10,3 +10,92 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+/* ul {
+  list-style: none;
+}
+
+nav {
+  background-color: #f8e067;
+  color: #00bfd5;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+  align-items: flex-end;
+}
+
+.navlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.navitems {
+  padding-right: 1rem
+}
+
+.banner {
+  color: #00bfd5;
+  text-align: center;
+  background-image: ;
+  background-linear-gradient: 
+} */
+
+nav {
+  background-color: #F8E067;
+  color: #00BFD5;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+}
+
+.NavList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.NavItems {
+  padding-right: 1rem;
+}
+
+.Banner {
+  background-image: url("/images/downtown.jpg");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #00A3D5;
+  background: linear-gradient(rgba(255, 224, 102, 0.75), rgba(242, 95, 92, 0.75));
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 2rem;
+  width: 100%;
+}
+
+.Plan {
+  background-color: rgba(242, 95, 92, 1);
+  color: #00A3D5;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.Featured {
+  background-color: rgba(36, 123, 160, 1);
+  color: rgba(225, 224, 102, .75);
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
